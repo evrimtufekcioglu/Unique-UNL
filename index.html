@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BWSV70V31"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-7BWSV70V31');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/72eb35f1d4.js" crossorigin="anonymous"></script>
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="branding">
+        <h2><a href="index.html" class="branding-logo">UNIQUE UNL</a></h2>
+      </div>
+      <label for="input-hamburger" class="hamburger"></label>
+      <input type="checkbox" id="input-hamburger" hidden>
+      <ul class="menu">
+        <li class="has-dropdown">
+          <a href="#" class="menu-link">Služby
+            <span class="arrow"></span>
+          </a>
+          <ul class="submenu">
+            <li><a href="kosmetika.html" class="menu-link">KOSMETIKA</a></li>
+            <li><a href="Permanentni.html" class="menu-link">Permanentní make-up</a></li>
+          </ul>
+        </li>
+        <li><a href="cenik.html" class="menu-link">CENÍK</a></li>
+        <li><a href="onas.html" class="menu-link">O NÁS</a></li>
+        <li><a href="kontaktujtenas.html" class="menu-link">KONTAKTUJTE NÁS</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    hamburger.addEventListener('click', function () {
+      this.classList.toggle("close")
+    })
+  </script>
+  <main>
+    <div id="hero" class="section heroimg" style="background-image: url(/img/22.jpg);">
+      <div class="color-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="column herotext center">
+              <h1>Vítejte v UNIQUE</h1>
+              <p>Neváhejte se objednat na kosmetickou proceduru
+                <br>Jen čistá pleť může být zdravá a krásná</p>
+              <br>
+              <div><a href="https://api.whatsapp.com/send?phone=420775529645" target="_blank" class="button2">REZERVOVAT
+                  TERMÍN</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section services">
+      <div class="container homepagecon homepagecon-s">
+        <h2>Profesionální Služby</h2>
+        <div class="row center">
+          <div class="column col-md-6  col-s-1">
+            <img src="img/home/cosmeticprocedure.jpg" class="homeimg" alt="">
+            <h3>Kosmetika</h3>
+            <p>Dosahujeme ty nejlepší výsledky v oblasti omlazení, rozjasnění pleti, vyhlazení středně jemných a
+              hlubších vrásek, v remodelaci kontur obličeje, vypnutí ochablé pleti, léčby akné a pigmentací.</p>
+            <a href="kosmetika.html" class="button">DOZVĚDĚT SE VÍCE</a>
+          </div>
+          <div class="column col-md-6  col-s-1">
+            <img src="img/home/Permanentmakeup.jpg" class="homeimg" alt="">
+            <h3>Permanentní make-up (JÍŽ BRZY)</h3>
+            <p>Snem každé ženy je ušetřit čas strávený ráno u zrcadla líčením a zakrýváním přirozených nedokonalostí
+              obličeje. Permanentní make-up je nová metoda, která nahrazuje dekorativní kosmetiku za pomoci aplikace
+              (tetování) přírodních pigmentů speciálními přístroji do vrchní vrstvy pokožky.</p>
+            <a href="Permanentni.html" class="button">DOZVĚDĚT SE VÍCE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" style="background-color: blanchedalmond;padding: 5px 0px 5px 0px;">
+      <div class="container">
+        <div class="row center">
+          <h2>Ceník</h2>
+          <div class="column">
+            <p>Jsme nadšeni, že můžeme poskytovat ty nejlepší služby za nejlepší ceny.<br>Podívejte se na náš ceník a rezervujte si kosmetické sezení již nyní.</p>
+            <br>
+            <div><a href="cenik.html" class="button3">DOZVĚDĚT SE VÍCE</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row center">
+          <h2>Naše Umístění</h2>
+          <div class="column col-md-6 col-s-1">
+            <iframe class="gmap map-s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.245485479798!2d14.03769971629025!3d50.65970248014522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470984aeb250a077%3A0x9f856c96b2bc8873!2zTcOtcm92w6kgbsOhbS4gMTA5LzMzLCA0MDAgMDEgw5pzdMOtIG5hZCBMYWJlbS1txJtzdG8tw5pzdMOtIG5hZCBMYWJlbS1jZW50cnVtLCBDemVjaGlh!5e0!3m2!1sen!2sde!4v1650400817254!5m2!1sen!2sde"
+              frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="column col-md-6 col-s-1 left">
+            <h3>Kontaktujte nás</h3>
+            <p><b>UNIQUE UNL</b></p>
+            <p><i class="fa-solid fa-map-pin"></i> &nbsp;&nbsp;&nbsp;Ústí nad Labem Mírové náměstí
+              109/33<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400 01 Ústí nad Labem-centrum
+            </p>
+            <p><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;unique.unl10@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;775529645</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="Contact">
+    <div class=" Section footerbck">
+      <div class="container">
+        <div class="row center">
+          <div class="column">
+            <h3>Chtěli byste si rezervovat termín?</h3>
+            <p>Rezervaci si můžete udělat telefonicky přes sociální síť whatsapp</p>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=420775529645" target="_blank" class="button2">REZERVOVAT
+              TERMÍN</a>
+          </div>
+        </div>
+        <div class="row center">
+          <h3>Následuj nás</h3>
+          <ul class="social">
+            <li>
+              <a href="https://www.facebook.com/unique_unl-101387062533642" target="_blank">
+                <i class="fa-brands fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/unique_unl/" target="_blank">
+                <i class="fa-brands fa-instagram-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bottomcol bottomcols center">
+      <p style="font-size: small;">2022 all rights reserved - unique_unl</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
