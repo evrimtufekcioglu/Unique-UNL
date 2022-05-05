@@ -421,7 +421,7 @@ a {
 }
 
 .row {
-    margin: 25px 0;
+    margin: 30px 0;
 }
 
 .row::after {
@@ -432,7 +432,7 @@ a {
 
 .homepagecon {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .bottomcol {
@@ -443,6 +443,10 @@ a {
 .margin-m {
     margin-top: 30px;
     margin-bottom: -140px;
+}
+
+.containertop {
+    margin-bottom: -150px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -611,6 +615,18 @@ a {
         position: relative;
         left: 5%;
     }
+
+    .sectiontop {
+        margin-bottom: -60px;
+    }
+
+    .sectiontop2 {
+        margin-bottom: -80px;
+    }
+
+    .container3{
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -626,4 +642,7 @@ a {
         font-weight: 400;
         line-height: 1.8em;
     }
+
+
+
 }
