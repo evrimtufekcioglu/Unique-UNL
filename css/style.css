@@ -66,12 +66,6 @@ header {
     box-shadow: 0px 3px 7px 0px rgba(117, 117, 117, 0.46);
 }
 
-.branding-logo {
-    color: var(--primary);
-    font-size: calc(0.8rem + 1vw);
-    text-decoration: none;
-}
-
 .navbar {
     max-height: 0px;
     display: flex;
@@ -624,7 +618,7 @@ a {
         margin-bottom: -80px;
     }
 
-    .container3{
+    .container3 {
         margin-top: 40px;
     }
 }
